@@ -38,7 +38,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #0f0;
   background-color: #fff;
-  background-image: url("./pics/Elemento-vida.png");
+  background-image: url("./pics/Elemento-Vida.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -62,7 +62,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #c0c0c0;
   background-color: #fff;
-  background-image: url("./pics/Elemento-luz.png");
+  background-image: url("./pics/Elemento-Luz.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -86,7 +86,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #8000ff;
   background-color: #fff;
-  background-image: url("./pics/Elemento-viento.png");
+  background-image: url("./pics/Elemento-Viento.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -110,7 +110,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #00f;
   background-color: #fff;
-  background-image: url("./pics/Elemento-agua.png");
+  background-image: url("./pics/Elemento-Agua.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -134,7 +134,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #ff0;
   background-color: #fff;
-  background-image: url("./pics/Elemento-rayo.png");
+  background-image: url("./pics/Elemento-Rayo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -158,7 +158,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #202020;
   background-color: #fff;
-  background-image: url("./pics/Elemento-oscuridad.png");
+  background-image: url("./pics/Elemento-Oscuridad.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -182,7 +182,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #ff8000;
   background-color: #fff;
-  background-image: url("./pics/Elemento-tierra.png");
+  background-image: url("./pics/Elemento-Tierra.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -206,7 +206,7 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px 2px #f00;
   background-color: #fff;
-  background-image: url("./pics/Elemento-fuego.png");
+  background-image: url("./pics/Elemento-Fuego.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
