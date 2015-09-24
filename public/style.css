@@ -1,0 +1,222 @@
+html {
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header h1 {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: 0 0 0 0;
+  height: 100%;
+  margin: 0;
+  background-image: url("./pics/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+.main .section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.main .section-vida {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #0f0;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-vida.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-vida > p {
+  display: none;
+}
+.main .section-vida:hover > p {
+  display: block;
+}
+.main .section-vida:hover {
+  background: #fff;
+}
+.main .section-luz {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #c0c0c0;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-luz.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-luz > p {
+  display: none;
+}
+.main .section-luz:hover > p {
+  display: block;
+}
+.main .section-luz:hover {
+  background: #fff;
+}
+.main .section-viento {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #8000ff;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-viento.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-viento > p {
+  display: none;
+}
+.main .section-viento:hover > p {
+  display: block;
+}
+.main .section-viento:hover {
+  background: #fff;
+}
+.main .section-agua {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #00f;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-agua.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-agua > p {
+  display: none;
+}
+.main .section-agua:hover > p {
+  display: block;
+}
+.main .section-agua:hover {
+  background: #fff;
+}
+.main .section-rayo {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #ff0;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-rayo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-rayo > p {
+  display: none;
+}
+.main .section-rayo:hover > p {
+  display: block;
+}
+.main .section-rayo:hover {
+  background: #fff;
+}
+.main .section-oscuridad {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #202020;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-oscuridad.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-oscuridad > p {
+  display: none;
+}
+.main .section-oscuridad:hover > p {
+  display: block;
+}
+.main .section-oscuridad:hover {
+  background: #fff;
+}
+.main .section-tierra {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #ff8000;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-tierra.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-tierra > p {
+  display: none;
+}
+.main .section-tierra:hover > p {
+  display: block;
+}
+.main .section-tierra:hover {
+  background: #fff;
+}
+.main .section-fuego {
+  margin: 1rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px #f00;
+  background-color: #fff;
+  background-image: url("./pics/Elemento-fuego.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main .section-fuego > p {
+  display: none;
+}
+.main .section-fuego:hover > p {
+  display: block;
+}
+.main .section-fuego:hover {
+  background: #fff;
+}
