@@ -23,6 +23,7 @@ html {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+  background-attachment: fixed;
 }
 .main .section {
   display: flex;
@@ -36,8 +37,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #0f0;
   background-color: #fff;
   background-image: url("./pics/Elemento-Vida.png");
@@ -49,6 +49,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-vida > .header {
+  display: none;
+  color: #000;
 }
 .main .section-vida:focus {
   animation: apearNormal 1s 1;
@@ -72,12 +76,16 @@ html {
 }
 .main .section-vida:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-vida:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-vida:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-vida:focus {
@@ -88,8 +96,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #c0c0c0;
   background-color: #fff;
   background-image: url("./pics/Elemento-Luz.png");
@@ -101,6 +108,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-luz > .header {
+  display: none;
+  color: #000;
 }
 .main .section-luz:focus {
   animation: apearNormal 1s 1;
@@ -124,12 +135,16 @@ html {
 }
 .main .section-luz:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-luz:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-luz:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-luz:focus {
@@ -140,8 +155,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #8000ff;
   background-color: #fff;
   background-image: url("./pics/Elemento-Viento.png");
@@ -153,6 +167,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-viento > .header {
+  display: none;
+  color: #000;
 }
 .main .section-viento:focus {
   animation: apearNormal 1s 1;
@@ -176,12 +194,16 @@ html {
 }
 .main .section-viento:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-viento:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-viento:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-viento:focus {
@@ -192,8 +214,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #00f;
   background-color: #fff;
   background-image: url("./pics/Elemento-Agua.png");
@@ -205,6 +226,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-agua > .header {
+  display: none;
+  color: #000;
 }
 .main .section-agua:focus {
   animation: apearNormal 1s 1;
@@ -228,12 +253,16 @@ html {
 }
 .main .section-agua:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-agua:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-agua:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-agua:focus {
@@ -244,8 +273,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #ff0;
   background-color: #fff;
   background-image: url("./pics/Elemento-Rayo.png");
@@ -257,6 +285,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-rayo > .header {
+  display: none;
+  color: #000;
 }
 .main .section-rayo:focus {
   animation: apearNormal 1s 1;
@@ -280,12 +312,16 @@ html {
 }
 .main .section-rayo:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-rayo:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-rayo:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-rayo:focus {
@@ -296,8 +332,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #202020;
   background-color: #fff;
   background-image: url("./pics/Elemento-Oscuridad.png");
@@ -309,6 +344,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-oscuridad > .header {
+  display: none;
+  color: #000;
 }
 .main .section-oscuridad:focus {
   animation: apearNormal 1s 1;
@@ -332,12 +371,16 @@ html {
 }
 .main .section-oscuridad:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-oscuridad:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-oscuridad:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-oscuridad:focus {
@@ -348,8 +391,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #ff8000;
   background-color: #fff;
   background-image: url("./pics/Elemento-Tierra.png");
@@ -361,6 +403,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-tierra > .header {
+  display: none;
+  color: #000;
 }
 .main .section-tierra:focus {
   animation: apearNormal 1s 1;
@@ -384,12 +430,16 @@ html {
 }
 .main .section-tierra:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-tierra:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-tierra:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-tierra:focus {
@@ -400,8 +450,7 @@ html {
   height: 7rem;
   width: 7rem;
   border-radius: 7rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: 0px 0px 10px 2px #f00;
   background-color: #fff;
   background-image: url("./pics/Elemento-Fuego.png");
@@ -413,6 +462,10 @@ html {
   display: none;
   color: #000;
   padding: 2em;
+}
+.main .section-fuego > .header {
+  display: none;
+  color: #000;
 }
 .main .section-fuego:focus {
   animation: apearNormal 1s 1;
@@ -436,12 +489,16 @@ html {
 }
 .main .section-fuego:focus > .property >h2 {
   font-size: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+}
+.main .section-fuego:focus > .header {
+  display: block;
 }
 @media (max-width: 600px) {
   .main .section-fuego:focus {
-    width: 90%;
     left: 5%;
+    right: 5%;
+    width: auto;
   }
 }
 .main .section-fuego:focus {

@@ -10,13 +10,15 @@ articlemix(tipo)
     height 7rem
     width 7rem
     border-radius 7rem
-    display flex
-    flex-direction column    
+    display block
     box-shadow 0px 0px 10px 2px tipo
     > .property
         display none
         color black
         padding 2em
+    > .header
+        display none
+        color black
         
     &:focus
         animation apearNormal 1s 1
@@ -27,7 +29,7 @@ articlemix(tipo)
         left 30%
         width 40%
         height auto
-        max-height: 80%;
+        max-height 80%
         color black
         text-decoration none    
         padding 2em
@@ -38,11 +40,15 @@ articlemix(tipo)
             justify-content flex-start
             >h2 
                 font-size 1em
-                margin-right .5em
+                margin-right 1em
+        > .header
+            display block
+        
             
         @media (max-width: 600px)
-            width 90%
             left 5%
+            right 5%
+            width auto
             
 imgmix(urlpic)
     background-color white
@@ -71,6 +77,7 @@ html
     background-repeat no-repeat
     background-size auto
     background-position center
+    background-attachment fixed
     .section
         display flex
         justify-content space-around
