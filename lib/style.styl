@@ -1,8 +1,9 @@
-@keyframes apear
+@keyframes apearNormal
     0%
-        height 0%
-    100%
-        height 90%
+        transform:scaleY(0)
+an    100%
+        transform:scaleY(1)
+            
             
 articlemix(tipo)
     margin 1em
@@ -10,22 +11,35 @@ articlemix(tipo)
     width 7rem
     border-radius 7rem
     display flex
-    justify-content center
-    align-items center
+    flex-direction column    
     box-shadow 0px 0px 10px 2px tipo
-    > p
+    > .property
         display none
         color black
+        padding 2em
+        
     &:focus
-        animation apear 1s 1
+        animation apearNormal 1s 1
         position absolute
+        border-radius 2rem
         margin 0
         top 5%
         left 30%
         width 40%
-        height 90%
-        > p
-            display block
+        height auto
+        max-height: 80%;
+        color black
+        text-decoration none    
+        padding 2em
+        overflow: scroll;
+        > .property
+            padding 0
+            display flex
+            justify-content flex-start
+            >h2 
+                font-size 1em
+                margin-right .5em
+            
         @media (max-width: 600px)
             width 90%
             left 5%
